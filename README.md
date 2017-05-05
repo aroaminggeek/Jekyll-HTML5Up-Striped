@@ -6,7 +6,7 @@ Main page:
 Single post:  
 ![single post](screenshots/post.png)   
 Archives page:  
-![Archives](screenshots/archive.png)  
+![Archives](screenshots/archives.png)  
 
 
 
