@@ -1,0 +1,44 @@
+<div id="sidebar">
+
+				<!-- Logo -->
+					<h1 id="logo"><a href="/">{{site.title}}</a></h1>
+				<!-- Text -->
+					<section class="box text-style1">
+						<div class="inner">
+							<p>
+								<strong>Site Description:<br></strong>{{ site.description }}
+							</p>
+						</div>
+					</section>
+                  {% include nav.html %}
+
+
+
+
+		
+                <!-- Contact -->
+                    <section class="box recent-posts">
+                        <header>
+                            <h2>Contact</h2>
+                        </header>
+                        <ul>
+                            <li><a class="icon fa-envelope" href="mailto:{{site.email}}"> eMail</a></li>
+                            <li><a class="icon fa-twitter" href="//twitter.com/{{site.twitter}}"> Twitter</a></li>
+                            <li><a class="icon fa-facebook" href="//fb.me/{{site.facebook}}"> Facebook</a></li>
+                            <li><a class="icon fa-github" href="//github.com/{{site.github}}"> Github</a></li>
+                            <li><a class="icon fa-comments" href="{{site.federated}}"> Open Social</a></li>
+                        </ul>
+                    </section>
+
+
+
+
+                <!-- Copyright -->
+                    <ul id="copyright">
+                    <li>Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</li>
+                        <li>Powered by <a href="http://jekyllrb.com/">Jekyll</a></li>
+                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>Modified under a <a href="https://creativecommons.org/licenses/by/3.0/">CC:BY</a> license by <a href="//aroaminggeek.com">A Roaming Geek</a>. </li>
+                    </ul>
+
+</div>

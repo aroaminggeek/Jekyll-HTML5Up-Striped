@@ -1,0 +1,59 @@
+---
+layout: default
+---
+		<!-- Content -->
+			<div id="content">
+				<div class="inner">
+
+					<!-- Post -->
+						<article class="box post post-excerpt">
+							<header>
+								<!--
+									Note: Titles and subtitles will wrap automatically when necessary, so don't worry
+									if they get too long. You can also remove the <p> entirely if you don't
+									need a subtitle.
+								-->
+								<h2>{{page.title}}</h2>
+								<p>{{ page.summary }}</p>
+							</header>
+							<div class="info">
+								<!--
+									Note: The date should be formatted exactly as it's shown below. In particular, the
+									"least significant" characters of the month should be encapsulated in a <span>
+									element to denote what gets dropped in 1200px mode (eg. the "uary" in "January").
+									Oh, and if you don't need a date for a particular page or post you can simply delete
+									the entire "date" element.
+
+								-->
+								
+								<span class="date">{% assign d = page.date | date: "%-d"  %}<span class="month">{{ page.date | date: "%b" }}</span> <span class="day">{% case d %}
+  {% when '1' or '21' or '31' %}{{ d }}st
+  {% when '2' or '22' %}{{ d }}nd
+  {% when '3' or '23' %}{{ d }}rd
+  {% else %}{{ d }}th
+  {% endcase %}</span><span class="year">{{ page.date | date: "%Y" }}</span></span>
+								<!--
+									Note: You can change the number of list items in "stats" to whatever you want.
+								-->
+								<ul class="stats">
+									<li><a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank" class="icon fa-reddit">&nbsp;</a></li>
+									<li><a href="mailto:?Subject={{ page.title }}&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 {{ site.url }}{{ page.url }}" class="icon fa-envelope">&nbsp;</a></li>
+									<li><a href="https://twitter.com/share?url={{site.url }}{{ page.url }}&amp;text={{ page.title }}%20-%20{{page.summary}}" target="_blank" class="icon fa-twitter">&nbsp;</a></li>
+									<li><a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" class="icon fa-facebook">&nbsp;</a></li>
+								</ul>
+							</div>
+							{{ content }}
+						</article>
+
+
+					
+				</div>
+				                                   <p class="paginator">
+                    {% if page.previous.url %}
+                        <a class ="previous button" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    {% endif %}
+                    {% if page.next.url %}
+                        <a class="next button" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    {% endif %}
+                </p>
+			</div>
