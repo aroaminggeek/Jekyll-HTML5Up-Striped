@@ -1,10 +1,17 @@
 # Striped by HTML5Up
 The HTML5 Up "[Striped](https://html5up.net/striped)" theme, converted to Jekyll (http://jekyllrb.com).  
  
-![](screenshots/main.png)  
+Main page:  
+![main](screenshots/main.png)  
+Single post:  
+![single post](screenshots/post.png)   
+Archives page:  
+![Archives](screenshots/archive.png)  
+
+
+
 See it in action at [G not C](http://gnotc.com):  
-![](screenshots/post.png)   
-![](screenshots/archive.png)  
+
 Striped by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the [CCA 3.0](https://creativecommons.org/licenses/by/3.0/) license (html5up.net/license)
