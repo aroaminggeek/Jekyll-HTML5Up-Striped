@@ -1,5 +1,8 @@
 # Striped by HTML5Up
 The HTML5 Up "[Striped](https://html5up.net/striped)" theme, converted to Jekyll (http://jekyllrb.com).  
+Single index file from the HTML5Up template, broken down in to easier to manage chunks for Jekyll.    
+sidebar.html  
+nav.html 
  
 Main page:  
 ![main](screenshots/main.png)  
@@ -12,6 +15,8 @@ Archives page:
 
 See it in action at [G not C](http://gnotc.com):  
 
+
+ReadMe from original template:  
 Striped by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the [CCA 3.0](https://creativecommons.org/licenses/by/3.0/) license (html5up.net/license)
