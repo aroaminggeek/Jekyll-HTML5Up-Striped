@@ -7,7 +7,7 @@ Social sharing links for posts.
 Optional Google Analytics.  
 Plugin-less archives page.  
 
-The code may not be pretty, but the theme creation is part of my effort to learn more Ruby.
+The code may not be pretty, but the theme creation is part of my effort to learn more Ruby and Liquid/Jekyll theming.
  
 Main page:  
 ![main](screenshots/main.png)  
