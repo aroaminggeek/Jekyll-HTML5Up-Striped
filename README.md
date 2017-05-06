@@ -5,7 +5,9 @@ A few highlights:
 A customizable `sidebar.html` (& `nav.html` include).  
 Social sharing links for posts.  
 Optional Google Analytics.  
-Plugin-less archives page.
+Plugin-less archives page.  
+
+The code may not be pretty, but the theme creation is part of my effort to learn more Ruby.
  
 Main page:  
 ![main](screenshots/main.png)  
