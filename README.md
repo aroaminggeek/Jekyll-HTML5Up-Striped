@@ -1,8 +1,11 @@
 # "Striped" by HTML5Up
 The HTML5 Up "[Striped](https://html5up.net/striped)" theme, converted to [Jekyll](http://jekyllrb.com).  
 Single index file from the HTML5Up template, broken down in to easier to manage chunks for Jekyll, including, but not limited to:      
-`sidebar.html`  
-`nav.html `
+A few highlights:  
+A customizable `sidebar.html` (& `nav.html` include).  
+Social sharing links for posts.  
+Optional Google Analytics.  
+Plugin-less archives page.
  
 Main page:  
 ![main](screenshots/main.png)  
