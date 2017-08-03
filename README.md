@@ -18,7 +18,7 @@ Archives page:
 
 
 
-See it live at [G not C](http://gnotc.com)  
+See it live at [here](https://digitalnomad.studio/jekyllthemes/striped/)  
 
 
 Original readme from Striped template:  
